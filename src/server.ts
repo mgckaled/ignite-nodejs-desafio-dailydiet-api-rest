@@ -1,10 +1,11 @@
 import fastify from 'fastify'
+import { knex } from './database'
 
-// instanciar a base da aplicação através da principal função
 const app = fastify()
 
-app.get('/hello', () => {
-  return 'Hello World'
+app.get('/hello', async () => {
+  const result = await knex('sqlite_schema').select('*')
+  return result
 })
 
 void app
