@@ -1,0 +1,19 @@
+{
+  "name": "daily-diet-api-rest",
+  "version": "1.0.0",
+  "description": "Repositório do segundo desafio da trilha Ignite Node.js de 2022",
+  "author": "marcel kaled mgck.dev@proton.me",
+  "license": "MIT",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
