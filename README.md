@@ -49,6 +49,19 @@ Nesse desafio desenvolveremos uma API para controle de dieta diária, a Daily Di
   - Melhor sequência de refeições dentro da dieta
 - O usuário só pode visualizar, editar e apagar as refeições o qual ele criou
 
+### Comandos utilizados no projeto
+
+```bash
+# iniciar projeto
+$ npm init -y
+
+# criar tsconfig.json
+npx tsc --init
+
+# rodar migrations
+npx knex -- migrate:make <migration-name>
+```
+
 ### Código Comentado
 
 Acesse análises e comentários sobre o código [AQUI](./.github/docs/index.md).
@@ -56,8 +69,17 @@ Acesse análises e comentários sobre o código [AQUI](./.github/docs/index.md).
 ## Tecnologias
 
 - [`Node.js`](https://nodejs.org/n/)
-- [`Javascript`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [`csv-parse`](https://www.npmjs.com/package/csv-parse)
+- [`Fastify`](https://fastify.dev/)
+- [`Typescript`](https://www.typescriptlang.org/)
+- [`knex`](https://knexjs.org/)
+- [`node-postgres`](https://www.npmjs.com/package/pg)
+- [`dotenv`](https://www.npmjs.com/package/dotenv)
+- [`zod`](https://www.npmjs.com/package/zod)
+- [`vitest`](https://vitest.dev/)
+- [`tsx`](https://www.npmjs.com/package/tsx)
+- [`tsup`](https://www.npmjs.com/package/tsup)
+- [`supertest`](https://www.npmjs.com/package/supertest)
+- [`sqlite3`](https://www.npmjs.com/package/sqlite3)
 
 ## Licença
 

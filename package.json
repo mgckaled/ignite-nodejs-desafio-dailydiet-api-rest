@@ -12,7 +12,8 @@
   },
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "lint": "eslint src --ext .ts --fix"
+    "lint": "eslint src --ext .ts --fix",
+    "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js"
   },
   "devDependencies": {
     "@types/node": "^20.5.7",
@@ -31,3 +32,5 @@
     "sqlite3": "^5.1.6"
   }
 }
+
+
