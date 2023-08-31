@@ -5,15 +5,19 @@
   "author": "marcel kaled mgck.dev@proton.me",
   "license": "MIT",
   "main": "index.js",
-  "type": "module",
   "keywords": [],
   "engines": {
     "node": ">=18"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.ts"
   },
   "devDependencies": {
+    "@types/node": "^20.5.7",
+    "tsx": "^3.12.7",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "fastify": "^4.22.0"
   }
 }
